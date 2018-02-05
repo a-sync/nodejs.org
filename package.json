@@ -1,0 +1,38 @@
+{
+  "name": "nodejs.org",
+  "version": "0.0.0",
+  "description": "Node static binaries for Linux, macOS and Windows",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "scripts": {
+    "build": "./build/index.sh",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-sync/nodejs.org"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "static",
+    "library",
+    "binary",
+    "binaries",
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "author": "a-sync@users.noreply.github.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-sync/nodejs.org/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*"
+  }
+}
