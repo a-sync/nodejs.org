@@ -1,8 +1,7 @@
 #!/bin/sh
 cd $(dirname $0)
 
-#LATEST_VERSION=$(curl -s https://nodejs.org/download/release/latest/ | grep node | grep .zip | head -1 | cut -d"-" -f 2)
-LATEST_VERSION="v6.12.3"
+LATEST_VERSION=$(curl -s https://nodejs.org/download/release/latest-boron/ | grep node | grep .zip | head -1 | cut -d"-" -f 2)
 
 tar_exec=$(command -v gtar)
 if [ $? -ne 0 ]; then
