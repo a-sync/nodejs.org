@@ -1,9 +1,12 @@
-[![npm (scoped)](https://img.shields.io/npm/v/nodejs.org.svg)](https://www.npmjs.com/package/nodejs.org) [![build status](https://secure.travis-ci.org/a-sync/nodejs.org.png)](https://travis-ci.org/a-sync/nodejs.org)
+[![npm (scoped)](https://img.shields.io/npm/v/nodejs.org.svg)](https://www.npmjs.com/package/nodejs.org) 
 
 **[node.js](https://nodejs.org) static binaries for Linux, macOS and Windows.**
 
-Supports Linux (32 and 64-bit), macOS (64-bit) and Windows (32 and 64-bit). 
+Supports Linux (32 and 64-bit), macOS (64-bit) and Windows (32 and 64-bit).  
 The package version matches the version of the binaries.
+ * `6.*.*` *(Boron)*
+ * `8.*.*` *(Carbon)*
+ * `*` *(latest)*
 
 ## Installation
 
