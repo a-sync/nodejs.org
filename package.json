@@ -1,6 +1,6 @@
 {
   "name": "nodejs.org",
-  "version": "6.12.3",
+  "version": "6.13.0",
   "description": "Node static binaries for Linux, macOS and Windows",
   "main": "index.js",
   "files": [
@@ -26,7 +26,7 @@
     "macos",
     "windows"
   ],
-  "author": "a-sync@users.noreply.github.com",
+  "author": "a-sync@devs.space",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/a-sync/nodejs.org/issues"
