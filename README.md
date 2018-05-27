@@ -6,7 +6,7 @@ Supports Linux (32 and 64-bit), macOS (64-bit) and Windows (32 and 64-bit).
 The package version matches the version of the binaries.
  * `6.*.*` *(Boron)*
  * `8.*.*` *(Carbon)*
- * `9.*.*` *(latest)*
+ * `10.*.*` *(latest)*
 
 ## Installation
 
