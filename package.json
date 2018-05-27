@@ -1,6 +1,6 @@
 {
   "name": "nodejs.org",
-  "version": "8.11.1",
+  "version": "8.11.2",
   "description": "Node static binaries for Linux, macOS and Windows",
   "main": "index.js",
   "files": [
