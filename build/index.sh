@@ -30,11 +30,6 @@ download "https://nodejs.org/download/release/${LATEST_VERSION}/node-${LATEST_VE
 echo "  extracting"
 $tar_exec -x -C ../bin/linux/x64 --strip-components 2 -f linux-x64.tar.xz --wildcards "*/bin/node"
 
-echo "  linux ia32"
-download "https://nodejs.org/download/release/${LATEST_VERSION}/node-${LATEST_VERSION}-linux-x86.tar.xz" linux-ia32.tar.xz
-echo "  extracting"
-$tar_exec -x -C ../bin/linux/ia32 --strip-components 2 -f linux-ia32.tar.xz --wildcards "*/bin/node"
-
 echo "  darwin x64"
 download "https://nodejs.org/download/release/${LATEST_VERSION}/node-${LATEST_VERSION}-darwin-x64.tar.xz" darwin-x64.tar.xz
 echo "  extracting"

@@ -9,7 +9,7 @@ if (platform !== 'linux' && platform !== 'darwin' && platform !== 'win32') {
 }
 
 const arch = os.arch();
-if (platform === 'darwin' && arch !== 'x64') {
+if ((platform === 'darwin' || platform === 'linux') && arch !== 'x64') {
     throw new Error('Unsupported architecture.');
 }
 
